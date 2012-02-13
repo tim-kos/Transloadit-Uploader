@@ -15,17 +15,21 @@ On your webpage make sure to:
 
 After that create the following html code on your webpage:
 
-<div class="js_upload">
-  <form action="/">
-  <!-- your form code here -->
-  </form>
-  <div class="progress js_progress"></div>
-  <div class="js_error_url">http://url-to-redirect-to-if-there-is-an-upload-error</div>
-</div>
+```
+  <div class="js_upload">
+    <form action="/">
+    <!-- your form code here -->
+    </form>
+    <div class="progress js_progress"></div>
+    <div class="js_error_url">http://url-to-redirect-to-if-there-is-an-upload-error</div>
+  </div>
+```
 
 And finally call the transloaditUpload() function on your upload div:
 
-$('.js_upload').transloaditUpload();
+```
+  $('.js_upload').transloaditUpload();
+```
 
 
 #Customizations
